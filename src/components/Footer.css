@@ -1,0 +1,25 @@
+/* footer */
+.footer-section{
+    background:#1eb7ff;
+    padding:20px 0;
+    text-align:center;
+}
+.footer-section p{
+    color:#fff;
+    margin:0;
+    font-size:15px;
+    font-weight:400;
+}
+.footer-section span{
+    font-weight:700;
+}
+/* Mobile */
+@media (max-width:576px){
+    .footer-section{
+        padding:15px;
+    }
+    .footer-section p{
+        font-size:13px;
+        line-height:1.6;
+    }
+}

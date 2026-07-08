@@ -1,0 +1,130 @@
+/* slide 4 */
+
+.pricing-section{
+    padding:120px 0;
+    background:#fff;
+}
+.pricing-tag{
+    color:#27b7ff;
+    font-size:20px;
+    font-weight:600;
+    text-transform:uppercase;
+    font-family: "NSimSun", serif;
+}
+.pricing-title{
+    font-size:48px;
+    font-weight:700;
+    color:#111827;
+}
+.pricing-title span{
+    color:#27b7ff;
+}
+.pricing-card{
+    background:#fff;
+    border:1px solid #ececec;
+    border-radius:18px;
+    padding:40px 30px;
+    height:100%;
+    transition:.3s;
+}
+.pricing-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+.plan-img{
+    width:100%;
+    max-width:240px;
+    margin:0 auto 25px;
+    display:block;
+}
+.plan-name{
+    font-size:32px;
+    font-weight:600;
+    margin-bottom:25px;
+}
+.pricing-card hr{
+    margin:25px 0;
+    color:#ddd;
+}
+.plan-features{
+    list-style:none;
+    padding:0;
+    margin:0 0 30px;
+}
+.plan-features li{
+    margin-bottom:12px;
+    color:#5c5c5c;
+    font-size:16px;
+}
+.plan-price{
+    font-size:48px;
+    color:#27b7ff;
+    font-weight:700;
+    margin-bottom:25px;
+}
+.plan-btn{
+    display:inline-block;
+    padding:14px 34px;
+    border:2px solid #27b7ff;
+    border-radius:10px;
+    text-decoration:none;
+    color:#27b7ff;
+    font-weight:600;
+    transition:.3s;
+}
+.plan-btn:hover{
+    background:#27b7ff;
+    color:#fff;
+}
+.pricing-card hr{
+    border:0;
+    height:1px;
+    background:#d9d9d9; /* grey line */
+    opacity:1;
+    margin:25px 0;
+}
+.feature-blue{
+    color:#27b7ff;
+    font-family: "NSimSun", serif;
+}
+.feature-gray{
+    color:#8c8c8c;
+    font-family: "NSimSun", serif;
+}
+/* Tablet */
+@media (max-width:991px){
+    .pricing-title{
+        font-size:38px;
+    }
+    .plan-name{
+        font-size:28px;
+    }
+    .plan-price{
+        font-size:40px;
+    }
+}
+
+/* Mobile */
+@media (max-width:576px){
+
+    .pricing-section{
+        padding:90px 0;
+    }
+    .pricing-title{
+        font-size:28px;
+        line-height:1.4;
+    }
+    .pricing-card{
+        padding:30px 20px;
+    }
+    .plan-name{
+        font-size:24px;
+    }
+    .plan-price{
+        font-size:34px;
+    }
+    .plan-btn{
+        width:100%;
+        text-align:center;
+    }
+}

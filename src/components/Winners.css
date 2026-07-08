@@ -1,0 +1,99 @@
+/* slide 3 */
+.winners-section{
+    padding:120px 0;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    position:relative;
+}
+.winner-tag{
+    color:#27b7ff;
+    font-size:20px;
+    font-weight:600;
+    text-transform:uppercase;
+    font-family: "NSimSun", serif;
+}
+.winner-title{
+    font-size:48px;
+    font-weight:700;
+    color:#111827;
+}
+.winner-title span{
+    color:#27b7ff;
+}
+.winner-card{
+    background:#fff;
+    border-radius:18px;
+    overflow:hidden;
+    transition:.3s;
+    height:100%;
+}
+.winner-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+}
+.winner-img{
+    width:100%;
+    height:380px;
+    object-fit:cover;
+}
+.winner-info{
+    display:flex;
+    justify-content:space-between;
+    padding:25px 30px;
+    font-family: "NSimSun", serif;
+}
+.winner-info h4{
+    font-size:22px;
+    font-weight:600;
+    margin-bottom:6px;
+}
+.winner-info p{
+    color:#8b8b8b;
+    font-size:14px;
+    margin:0;
+}
+.winner-btn{
+    display:inline-block;
+    padding:14px 32px;
+    border:2px solid #27b7ff;
+    color:#27b7ff;
+    text-decoration:none;
+    border-radius:10px;
+    font-weight:600;
+    transition:.3s;
+    font-family: "NSimSun", serif;
+}
+.winner-btn:hover{
+    background:#27b7ff;
+    color:#fff;
+}
+/* Tablet */
+@media (max-width:991px){
+    .winner-title{
+        font-size:38px;
+    }
+    .winner-img{
+        height:320px;
+    }
+    .winner-info{
+        padding:20px;
+    }
+}
+/* Mobile */
+@media (max-width:576px){
+    .winners-section{
+        padding:90px 0;
+    }
+    .winner-title{
+        font-size:28px;
+        line-height:1.4;
+    }
+    .winner-img{
+        height:260px;
+    }
+    .winner-info{
+        flex-direction:column;
+        gap:15px;
+    }
+}
