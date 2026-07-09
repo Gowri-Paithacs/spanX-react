@@ -5,7 +5,7 @@ function Footer() {
       <div className="container">
         <p>
           Copyright &copy; 2022 <span>SnapX</span> Photo Contest Co. Ltd. All
-          Rights Reserved. Design <span>TemplateMo</span>
+          Rights Reserved. Design <span>TemplateMo </span>
         </p>
       </div>
     </footer>
